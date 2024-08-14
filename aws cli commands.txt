@@ -4,7 +4,7 @@
         {
             "Effect": "Allow",
             "Principal": {
-                "AWS": "arn:aws:iam::339713112256:user/sravya"
+                "AWS": "arn:aws:iam:::user/sravya"
             },
             "Action": [
                 "s3:GetObject",
@@ -19,17 +19,10 @@
 }
 
 
-
-https://git-codecommit.us-east-1.amazonaws.com/v1/repos/demo-repo-codecommit
-
-
-
-
-
 aws iam list-users --profile madhu
 
 
-aws ec2 run-instances --image-id ami-07ec1820c7eedd4c9 --count 1 --instance-type t2.medium --key-name Sravya --security-group-ids sg-00f4441f8b103f5d7 --subnet-id subnet-085d4b3b64b61f225 --tag-specifications ResourceType=instance,Tags={Key=Name,Value=deleteinstance}
+aws ec2 run-instances --image-id ami-07 --count 1 --instance-type t2.medium --key-name Sravya --security-group-ids sg- --subnet-id subnet- --tag-specifications ResourceType=instance,Tags={Key=Name,Value=deleteinstance}
 
 
 

@@ -36,7 +36,3 @@ resource "aws_vpc_security_group_egress_rule" "allow_all_traffic_ipv4" {
 
 
 
-vol-0c967c10e3ed3bebf
-
-
-

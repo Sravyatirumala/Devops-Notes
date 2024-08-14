@@ -8,7 +8,7 @@ arn:aws:iam::339713112256:role/TESTACC
   "Statement": {
     "Effect": "Allow",
     "Action": "sts:AssumeRole",
-    "Resource": "arn:aws:iam::339713112256:role/DevopsTestAccRole*"
+    "Resource": "arn:aws:iam::3:role/DevopsTestAccRole*"
   }
 }
 
@@ -26,7 +26,6 @@ A:  1. Create IAM Role in  prod env. Choose Aws account. Choose other account id
 SravyaDevops: 339713112256   or sravyaops
 info@sravya.co.in
 Partha$1925
-
 
 
 jenkins: sravyatv
