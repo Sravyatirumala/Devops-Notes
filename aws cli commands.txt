@@ -19,12 +19,6 @@
 }
 
 
-AKIAU6GD2XDAMG5MQIPG
-
-
-1l08LsoSrgdYR6y0XQT70OToCvghFwHJsF9MhCYu
-
-
 
 https://git-codecommit.us-east-1.amazonaws.com/v1/repos/demo-repo-codecommit
 
