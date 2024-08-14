@@ -1,0 +1,33 @@
+terraform:
+
+
+Instance:
+resource "aws_instance" "public_instance" {
+  ami  = "ami-04b70fa74e45c3917"
+  instance_type  = "t2.micro"
+  key_name   = "testkey"
+  subnet_id = aws_subnet.public_subnet.id 
+  associate_public_ip_address = true
+}
+
+
+S3:
+resource "aws_s3_bucket" "s3bucket" {
+  bucket = "my-tf-test-bucket"
+  tags = {
+    Name        = "My bucket"
+    Environment = "Dev"
+  }
+}
+
+
+
+
+S3: CreateBucket, https response error StatusCode: 400, RequestID: 98H1D4M0PXJ3X7A6, HostID: m92ez/vjd3lQFmLgiBVW160ZutcfxrgoFgatNO1LN2Rawvy4MzvA2dftc2k1GEr9BfsfNcT4wIc=, api error AuthorizationHeaderMalformed: The authorization header is malformed; the region 'us-east-1' is wrong; expecting 'eu-central-1'
+│
+
+
+
+
+Git Token
+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
